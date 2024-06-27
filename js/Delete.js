@@ -8,13 +8,14 @@ function MainInfo() {
             data.forEach(item => {
                 const cardHTML = `
                     <div class="card">
-                        <h2>${item.produtoId}</h2>
-                        <h2>${item.nome}</h2>
-                        <h2>${item.descricao}</h2>
-                        <h2>${item.preco}</h2>
-                        <h2>${item.descricao}</h2>
-                        <h2>${item.estoque}</h2>
-                        <button class="btn-del" data-id="${item.produtoId}">excluir</button>    
+                        <h2>Id do Produto: ${item.produtoId}</h2>
+                        <h2>Nome do produto: ${item.nome}</h2>
+                        <h2>Descrição: ${item.descricao}</h2>
+                        <h2>Preço: ${item.preco}</h2>
+                        <h2>descrição2: ${item.descricao}</h2>
+                        <h2>Estoque: ${item.estoque}</h2>
+                        <br>
+                        <button class="btn-del" data-id="${item.produtoId}">Excluir</button>    
                     </div>
                 `;
                 produtosContainer.innerHTML += cardHTML;

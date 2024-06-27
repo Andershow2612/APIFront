@@ -75,7 +75,7 @@
 
 .card{
     width: 30vw;
-    height: 20vh;
+    height: 25vh;
     background-color: transparent;
     display: flex;
     flex-wrap: wrap;
@@ -83,4 +83,31 @@
     border: solid black 2px;
     align-items: center;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+footer > a > button{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer > a > button:hover{
+    transition: 0.3s;
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 100%;
+        max-width: 300px; 
+        height: auto; 
+        margin: 10px; 
+        padding: 20px; 
+        box-sizing: border-box; 
+    }
 }

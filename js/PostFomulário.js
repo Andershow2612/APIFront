@@ -8,7 +8,7 @@ function botaoApertado() {
         const nome = document.getElementById('idNome').value;
         const descricao = document.getElementById('idDescricao').value;
         const preco = document.getElementById('idPreco').value;
-        const imagemUrl = document.getElementById('idImagemUrl').value;
+        /* const imagemUrl = document.getElementById('idImagemUrl').value; */
         const estoque = document.getElementById('idEstoque').value;
         const categoria = document.getElementById('categoriaId').value;
 
@@ -17,7 +17,7 @@ function botaoApertado() {
             nome: nome,
             descricao: descricao,
             preco: preco,
-            imagemUrl: imagemUrl,
+            imagemUrl: '.',
             estoque: estoque,
             categoriaId: categoria,
             categoria: null

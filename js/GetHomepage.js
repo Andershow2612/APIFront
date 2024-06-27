@@ -16,7 +16,6 @@ function MainInfo() {
                         <h2>Nome do produto: ${item.nome}</h2>
                         <h2>Descrição: ${item.descricao}</h2>
                         <h2>Preço: ${item.preco}</h2>
-                        <h2>descrição2: ${item.descricao}</h2>
                         <h2>Estoque: ${item.estoque}</h2>
                     </div>
                 `; 

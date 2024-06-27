@@ -57,7 +57,7 @@ body{
     border: solid black 2px;
     border-radius: 5px;
     width: 20vw;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,4 +86,28 @@ body{
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+footer > a > button{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer > a > button:hover{
+    transition: 0.3s;
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 100%;
+        max-width: 300px; 
+        height: auto; 
+        margin: 10px; 
+        padding: 20px; 
+        box-sizing: border-box; 
+    }
 }
